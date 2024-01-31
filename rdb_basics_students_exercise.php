@@ -23,7 +23,6 @@ solution.sql
 */
 
 
-
 SELECT students.name FROM students
-JOIN universities ON students.university_id = universities.id
+INNER JOIN universities ON students.university_id = universities.id
 WHERE universities.name = 'name2';
